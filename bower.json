@@ -1,0 +1,13 @@
+{
+  "name": "data.exportproplus",
+  "version": "9.2.0",
+  "main": "",
+  "ignore": [
+    "source",
+    ".gitignore",
+    ".idea",
+    "bower.json",
+    "gulpfile.js",
+    "package.json"
+  ]
+}
