@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"].'/bitrix/modules/data.core/admin/export/migrator.php');?>

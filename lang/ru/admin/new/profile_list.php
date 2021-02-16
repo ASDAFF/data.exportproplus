@@ -1,0 +1,79 @@
+<?
+// General
+$MESS['DATA_EXP_PAGE_TITLE'] = 'Список профилей экспорта';
+
+// General popup
+$MESS['DATA_EXP_POPUP_LOADING'] = 'Загрузка...';
+
+// Popup: backup restore
+$MESS['DATA_EXP_POPUP_RESTORE_TITLE'] = 'Восстановление профилей из резервной копии';
+$MESS['DATA_EXP_POPUP_RESTORE_SAVE'] = 'Восстановить';
+$MESS['DATA_EXP_POPUP_RESTORE_CLOSE'] = 'Отменить';
+$MESS['DATA_EXP_POPUP_RESTORE_WRONG_FILE'] = 'Выбран некорректный файл';
+$MESS['DATA_EXP_POPUP_RESTORE_NO_FILE'] = 'Не выбран файл с резервной копией';
+$MESS['DATA_EXP_POPUP_RESTORE_RESTORE_SUCCESS'] = 'Восстановление выполнено.';
+$MESS['DATA_EXP_POPUP_RESTORE_RESTORE_ERROR'] = 'Ошибка при восстановлении.';
+
+//
+$MESS['DATA_EXPORTPROPLUS_HEADER_ID'] = 'ID';
+$MESS['DATA_EXPORTPROPLUS_HEADER_LOCKED'] = 'Блок.';
+$MESS['DATA_EXPORTPROPLUS_HEADER_ACTIVE'] = 'Акт.';
+$MESS['DATA_EXPORTPROPLUS_HEADER_NAME'] = 'Название';
+$MESS['DATA_EXPORTPROPLUS_HEADER_DESCRIPTION'] = 'Описание';
+$MESS['DATA_EXPORTPROPLUS_HEADER_SORT'] = 'Сорт.';
+$MESS['DATA_EXPORTPROPLUS_HEADER_SITE_ID'] = 'Сайт';
+$MESS['DATA_EXPORTPROPLUS_HEADER_DOMAIN'] = 'Домен';
+$MESS['DATA_EXPORTPROPLUS_HEADER_IS_HTTPS'] = 'SSL';
+$MESS['DATA_EXPORTPROPLUS_HEADER_AUTO_GENERATE'] = 'Автообработка';
+$MESS['DATA_EXPORTPROPLUS_HEADER_AUTO_CRON'] = 'Автозапуск по Cron';
+$MESS['DATA_EXPORTPROPLUS_HEADER_FORMAT'] = 'Формат выгрузки';
+$MESS['DATA_EXPORTPROPLUS_HEADER_EXPORT_FILE_NAME'] = 'Файл экспорта';
+	$MESS['DATA_EXPORTPROPLUS_HEADER_EXPORT_FILE_NAME_TITLE'] = 'Нажмите, чтобы открыть файл в новой вкладке';
+$MESS['DATA_EXPORTPROPLUS_HEADER_DATE_CREATED'] = 'Дата создания';
+$MESS['DATA_EXPORTPROPLUS_HEADER_DATE_MODIFIED'] = 'Дата изменения';
+
+// Header for dynamic fields
+$MESS['DATA_EXPORTPROPLUS_HEADER_DATE_START'] = 'Дата запуска';
+$MESS['DATA_EXPORTPROPLUS_HEADER_DATE_END'] = 'Дата завершения';
+$MESS['DATA_EXPORTPROPLUS_HEADER_DATE_LOCKED'] = 'Дата блокировки';
+$MESS['DATA_EXPORTPROPLUS_HEADER_TIME_GENERATED'] = 'Время генерации';
+$MESS['DATA_EXPORTPROPLUS_HEADER_TIME_TOTAL'] = 'Время выгрузки';
+$MESS['DATA_EXPORTPROPLUS_HEADER_COUNT_SUCCESS'] = 'Выгружено успешно';
+$MESS['DATA_EXPORTPROPLUS_HEADER_COUNT_ERROR'] = 'Выгружено с&nbsp;ошибками';
+// Context
+$MESS['DATA_EXPORTPROPLUS_CONTEXT_PROFILE_EDIT'] = 'Редактировать';
+$MESS['DATA_EXPORTPROPLUS_CONTEXT_PROFILE_COPY'] = 'Копировать';
+$MESS['DATA_EXPORTPROPLUS_CONTEXT_PROFILE_DELETE'] = 'Удалить';
+$MESS['DATA_EXPORTPROPLUS_CONTEXT_PROFILE_DELETE_CONFIRM'] = 'Удалить профиль %s?';
+$MESS['DATA_EXPORTPROPLUS_CONTEXT_PROFILE_ACTIVATE'] = 'Активировать';
+$MESS['DATA_EXPORTPROPLUS_CONTEXT_PROFILE_DEACTIVATE'] = 'Деактивировать';
+$MESS['DATA_EXPORTPROPLUS_CONTEXT_PROFILE_UNLOCK'] = 'Снять блокировку';
+$MESS['DATA_EXPORTPROPLUS_CONTEXT_PROFILE_REMOVE_CRONTAB'] = 'Отменить автозапуск по Cron';
+
+// ToolBar
+$MESS['DATA_EXPORTPROPLUS_TOOLBAR_ADD'] = 'Добавить профиль';
+$MESS['DATA_EXPORTPROPLUS_TOOLBAR_BACKUP'] = 'Резервное копирование';
+$MESS['DATA_EXPORTPROPLUS_TOOLBAR_BACKUP_CREATE'] = 'Создать рез. копию выбранных профилей';
+$MESS['DATA_EXPORTPROPLUS_TOOLBAR_BACKUP_RESTORE'] = 'Восстановить из рез. копии';
+
+// Group actions
+$MESS['DATA_EXPORTPROPLUS_GROUP_UNLOCK'] = 'снять блокировку';
+$MESS['DATA_EXPORTPROPLUS_GROUP_UNCRON'] = 'отменить автозапуск по Cron';
+$MESS['DATA_EXPORTPROPLUS_GROUP_ERROR_NOT_FOUND'] = 'Профиль #ID# не найден.';
+$MESS['DATA_EXPORTPROPLUS_GROUP_ERROR_DELETE'] = 'Ошибка при удалении профиля #NAME#';
+$MESS['DATA_EXPORTPROPLUS_GROUP_ERROR_UPDATE'] = 'Ошибка при изменении профиля #NAME#';
+$MESS['DATA_EXPORTPROPLUS_GROUP_ERROR_UNLOCK'] = 'Ошибка при снятии блокировки профиля #NAME#';
+$MESS['DATA_EXPORTPROPLUS_GROUP_ERROR_UNCRON'] = 'Ошибка отмены автозапуска профиля #NAME#';
+
+// Filter
+$MESS['DATA_EXPORTPROPLUS_FILTER_ID'] = 'ID профиля';
+$MESS['DATA_EXPORTPROPLUS_FILTER_ACTIVE'] = 'Активность';
+$MESS['DATA_EXPORTPROPLUS_FILTER_LOCKED'] = 'Блокировка';
+$MESS['DATA_EXPORTPROPLUS_FILTER_NAME'] = 'Название';
+$MESS['DATA_EXPORTPROPLUS_FILTER_FORMAT'] = 'Формат выгрузки';
+$MESS['DATA_EXPORTPROPLUS_FILTER_AUTO_GENERATE'] = 'Автогенерация';
+$MESS['DATA_EXPORTPROPLUS_FILTER_SITE_ID'] = 'Сайт';
+$MESS['DATA_EXPORTPROPLUS_FILTER_DATE_CREATED'] = 'Дата создания';
+$MESS['DATA_EXPORTPROPLUS_FILTER_DATE_MODIFIED'] = 'Дата изменения';
+
+?>
